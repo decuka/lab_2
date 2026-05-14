@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB_3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Bohdan Mankovskyi</h1>
+            <p>Cybersecurity Student</p>
+        </header>
+
+        <main>
+            <section class="objective">
+                <h2>Objective</h2>
+                <p>
+                    To develop my skills in cybersecurity, web application security,
+                    digital forensics, and incident response through practical projects,
+                    internships, and team work.
+                </p>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+
+                <ol>
+                    <li>
+                        <h3>Cybersecurity Internship Program at SoftServe</h3>
+                        <span>June 2025 - August 2025</span>
+                        <p>
+                            Improved practical cybersecurity skills through security tasks,
+                            vulnerability analysis, and team-based projects.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>Commercial Red Team Experience</h3>
+                        <span>September 2025 - December 2025</span>
+                        <p>
+                            Worked with enterprise infrastructure, Active Directory,
+                            network mapping, service enumeration, and web application
+                            security testing.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>CTF and Security Competitions</h3>
+                        <p>
+                            Participated in HackTheBox, TryHackMe, and offline CTF events,
+                            achieving prize-winning positions in several challenges.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+        </main>
+
+        <aside>
+            <section class="contact">
+                <h2>Contact</h2>
+                <a href="mailto:bogdan.mankovskyi0@gmail.com">bogdan.mankovskyi0@gmail.com</a>
+                <a href="tel:+380678448794">+380 67 844 8794</a>
+                <p>Lviv, Ukraine</p>
+                <a href="https://www.linkedin.com/in/bohdan-mankovskyi-92803b1b8/">
+                    LinkedIn
+                </a>
+            </section>
+
+            <section class="about">
+                <h2>About Me</h2>
+                <p>
+                    I am a third-year Cybersecurity student interested in web security,
+                    forensic analysis, Red Team activities, and secure backend development.
+                </p>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <p>
+                    Lviv Polytechnic National University<br>
+                    Bachelor's Degree in Cybersecurity and Data Protection
+                </p>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web Application Security</li>
+                    <li>OWASP Top 10</li>
+                    <li>Burp Suite / Nikto / Metasploit</li>
+                    <li>Python</li>
+                    <li>Linux Administration</li>
+                    <li>Active Directory</li>
+                    <li>Network Security</li>
+                    <li>Digital Forensics</li>
+                    <li>OSINT</li>
+                    <li>AWS Fundamentals</li>
+                    <li>Teamwork</li>
+                    <li>Critical Thinking</li>
+                </ul>
+            </section>
+
+            <section class="english">
+                <h2>English</h2>
+                <p>Intermediate (B1)</p>
+            </section>
+        </aside>
+        <section class="reviews">
+            <h2>Reviews</h2>
+            <div id="comments-container"></div>
+        </section>
+        
+        <button id="theme-toggle" class="theme-toggle">Нічна тема</button>
+        
+        <div id="feedback-modal" class="modal">
+            <div class="modal-content">
+                <button id="close-modal" class="close-button">&times;</button>
+        
+                <h2>Contact Form</h2>
+        
+                <form action="https://formspree.io/f/mlgzynzj" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <h2>System Information</h2>
+            <div id="local-storage-display"></div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
